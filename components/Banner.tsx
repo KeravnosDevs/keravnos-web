@@ -1,6 +1,14 @@
 import { motion } from "framer-motion";
+import { useRef } from "react";
 
 const Banner = () => {
+  const contactSectionRef = useRef(null);
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    contactSectionRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section
       id="home"
@@ -30,15 +38,7 @@ const Banner = () => {
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
         {" "}
-        Discover the power of custom software development with Keravnos. Our team of experts specializes in delivering tailored solutions that help businesses achieve their goals. We pride ourselves on our commitment to transparency, efficiency, and quality, ensuring that every project is delivered on time and to the highest standards. From consultation to delivery, our team is dedicated to providing exceptional service and support. Contact us today to learn how Keravnos can help your business thrive.
-        <a href="#contact" target="_blank">
-          {" "}
-          {/* Ruta del botón a definir */}
-          <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
-            Learn More
-            <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
-          </span>
-        </a>
+        Discover the power of custom software development with Keravnos. Our team of experts specializes in delivering tailored solutions that help businesses achieve their goals. We pride ourselves on our commitment to transparency, efficiency, and quality, ensuring that every project is delivered on time and to the highest standards. From consultation to delivery, our team is dedicated to providing exceptional service and support. <a href="#contact" onClick={handleClick} className="text-textGreen cursor-pointer">Contact us today to learn how Keravnos can help your business thrive.</a>
       </motion.p>
       <motion.button
         initial={{ y: 10, opacity: 0 }}
@@ -48,6 +48,8 @@ const Banner = () => {
       >
         Check out our Portfolio!
       </motion.button>
+
+      <div ref={contactSectionRef} id="contact" className="my-12"></div>
     </section>
   );
 };

@@ -30,10 +30,12 @@ const Banner = () => {
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
         {" "}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas et rem
-        temporibus nihil quaerat. Explicabo et accusantium vero velit nostrum
-        est, blanditiis dolore dolorem odio similique? Sint, reprehenderit
-        repellat. Quia?
+        Discover the power of custom software development with Keravnos. Our team of experts 
+        specializes in delivering tailored solutions that help businesses achieve their goals. 
+        We pride ourselves on our commitment to transparency, efficiency, and quality, ensuring that 
+        every project is delivered on time and to the highest standards. From consultation to delivery, 
+        our team is dedicated to providing exceptional service and support. Contact us today to learn how 
+        Keravnos can help your business thrive.
         <a href=" " target="_blank">
           {" "}
           {/* Ruta del botón a definir */}

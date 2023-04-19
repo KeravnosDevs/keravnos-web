@@ -31,7 +31,7 @@ const Banner = () => {
       >
         {" "}
         Discover the power of custom software development with Keravnos. Our team of experts specializes in delivering tailored solutions that help businesses achieve their goals. We pride ourselves on our commitment to transparency, efficiency, and quality, ensuring that every project is delivered on time and to the highest standards. From consultation to delivery, our team is dedicated to providing exceptional service and support. Contact us today to learn how Keravnos can help your business thrive.
-        <a href="#contact-section" target="_blank">
+        <a href="#contact" target="_blank">
           {" "}
           {/* Ruta del botón a definir */}
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">

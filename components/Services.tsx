@@ -69,7 +69,7 @@ export const Services = () => {
                 : "text-textDark text-textDark"
             } border-l-2 bg-transparent hover:bg-[#404040] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
-            Service1
+            Web Development
           </li>
           <li
             onClick={handleWorkTwo}
@@ -79,7 +79,7 @@ export const Services = () => {
                 : "text-textDark text-textDark"
             } border-l-2 bg-transparent hover:bg-[#404040] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
-            Service2
+            Mobile Apps
           </li>
           <li
             onClick={handleWorkThree}
@@ -89,7 +89,7 @@ export const Services = () => {
                 : "text-textDark text-textDark"
             } border-l-2 bg-transparent hover:bg-[#404040] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
-            Service3
+            Desktop Apps
           </li>
           <li
             onClick={handleWorkFour}
@@ -99,9 +99,9 @@ export const Services = () => {
                 : "text-textDark text-textDark"
             } border-l-2 bg-transparent hover:bg-[#404040] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
-            Service4
+            Tech Consulting
           </li>
-          <li
+          {/* <li
             onClick={handleWorkFive}
             className={`${
               workFive
@@ -110,7 +110,7 @@ export const Services = () => {
             } border-l-2 bg-transparent hover:bg-[#404040] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
             Service5
-          </li>
+          </li> */}
         </ul>
         {workOne && <Work1 />}
         {workTwo && <Work2 />}

@@ -13,77 +13,83 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-            possimus quos minus adipisci quae facilis. Nulla, iusto praesentium
-            architecto consequatur officia dolorum eum sit possimus, harum ut
-            earum optio delectus.
+            At Keravnos, we are a software agency focused on providing fast and
+            precise solutions for our clients. Our team is composed of experts
+            in technology, design, and software development, all committed to
+            delivering high-quality services that meet the unique needs of each
+            client.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere,
-            accusamus?{" "}
+            From our roots in web development to our expertise in{" "}
             <span className="text-textGreen">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Veritatis, nihil?
+              mobile, desktop, and technology consulting,{" "}
             </span>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt,
-            quis!{" "}
-            <span className="text-textGreen">Lorem ipsum dolor sit amet</span>
+            we take pride in offering customized solutions that help our clients
+            achieve their business objectives. We take the time to listen and
+            understand the specific needs of each project, and work closely with
+            our clients to deliver{" "}
+            <span className="text-textGreen">
+              solutions that exceed their expectations.
+            </span>
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus
-            asperiores provident, commodi quo maiores inventore nostrum!
-            Inventore natus vero aperiam minima excepturi molestias saepe
-            obcaecati mollitia dicta totam, quae blanditiis.
+            At Keravnos, we are passionate about what we do. We are proud to
+            work with clients from around the world and provide them with
+            high-quality software solutions that propel their businesses to the
+            next level. If you are looking for a reliable and committed software
+            agency for your success, contact us today. We are excited to learn
+            more about your project and how we can help you achieve your
+            business goals.
           </p>
-          <p>Aquí algunas de las tecnoligas con las que trabajamos:</p>
+          <p>Here are some of the technologies we work with:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript
+              WordPress
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript
+              React
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript
+              Node.js
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript
+              Angular
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript
+              Django
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript
+              Laravel
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript
+              Swift
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript
+              Kotlin
             </li>
           </ul>
         </div>

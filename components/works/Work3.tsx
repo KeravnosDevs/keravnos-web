@@ -9,17 +9,19 @@ export const Work3 = () => {
       transition={{ delay: 0.1 }}
       className="w-full"
     >
-      <h3 className="flex gap-1 font-medium text-xl font-titleFont">Work 3</h3>
+      <h3 className="flex gap-1 font-medium text-xl font-titleFont">
+        Desktop Apps
+      </h3>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-          quaerat beatae et voluptatem aliquam eligendi doloremque, ut
-          dignissimos. Quaerat, totam? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Iste, accusantium eius ducimus excepturi eligendi
-          nesciunt modi quibusdam sit? Saepe, modi!
+          We also offer desktop app development services. From simple
+          applications to complex enterprise solutions, we can help you create
+          an app that meets all of your needs. Additionally, our developers have
+          experience across multiple platforms, allowing us to create solutions
+          for Windows, Mac, and Linux.
         </li>
       </ul>
     </motion.div>

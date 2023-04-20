@@ -9,9 +9,10 @@ export const Contact = () => {
       </p>
       <h2 className="font-titleFont text-5xl font-semibold">Get In Touch</h2>
       <p className="max-w-[600px] text-center text-textDark">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta,
-        voluptatem vero provident esse repellendus natus magni atque? Enim,
-        impedit expedita!
+        Contact us today to start working together! Email us directly. We are
+        excited to learn more about your project and how we can help you achieve
+        your business goals. At Keravnos, your success is our number one
+        priority.
       </p>
       <a href="mailto:info@keravnos.co">
         <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">

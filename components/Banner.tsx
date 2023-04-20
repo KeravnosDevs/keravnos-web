@@ -1,6 +1,13 @@
 import { motion } from "framer-motion";
+import { useRouter } from "next/router";
 
 const Banner = () => {
+  const router = useRouter();
+
+  const handlePortfolioClick = () => {
+    router.push("https://www.google.com.ar/"); //Agregar link de behans
+  };
+
   return (
     <section
       id="home"
@@ -48,6 +55,7 @@ const Banner = () => {
         </a>
       </motion.p>
       <motion.button
+        onClick={handlePortfolioClick}
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.9 }}

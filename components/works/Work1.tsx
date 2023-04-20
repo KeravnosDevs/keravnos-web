@@ -9,17 +9,17 @@ export const Work1 = () => {
       transition={{ delay: 0.1 }}
       className="w-full"
     >
-      <h3 className="flex gap-1 font-medium text-xl font-titleFont">Work 1</h3>
+      <h3 className="flex gap-1 font-medium text-xl font-titleFont">Web Development</h3>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-          quaerat beatae et voluptatem aliquam eligendi doloremque, ut
-          dignissimos. Quaerat, totam? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Iste, accusantium eius ducimus excepturi eligendi
-          nesciunt modi quibusdam sit? Saepe, modi!
+          With our web development service, we can create attractive and
+          functional websites for your business. Whether you need a simple
+          website or a complex e-commerce platform, we can help you create the
+          perfect solution. We also work with WordPress and can develop full
+          code websites to meet your specific needs.
         </li>
       </ul>
     </motion.div>

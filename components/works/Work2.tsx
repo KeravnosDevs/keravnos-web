@@ -19,7 +19,7 @@ export const Work2 = () => {
           </span>
           With our expertise in mobile app development, we can help you create a
           unique and functional app that meets the needs of your users. Whether
-          you're looking for an app for iOS or Android, our development team can
+          you´re looking for an app for iOS or Android, our development team can
           help you create the perfect solution.
         </li>
       </ul>

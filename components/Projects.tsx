@@ -35,7 +35,7 @@ export const Projects = () => {
                 Designed for a mobile photography application, this landing page
                 stands out with its sleek and{" "}
                 <span className="text-textGreen">modern design, </span>
-                showcasing the app's benefits and features in an attractive and{" "}
+                showcasing the apps benefits and features in an attractive and{" "}
                 <span className="text-textGreen">easy-to-navigate format.</span>
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">

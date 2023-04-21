@@ -84,15 +84,13 @@ export const Projects = () => {
               </p>
               <h3 className="text-2x1 font-bold">White Label Project</h3>
               <p className="bg-[#404040] text-sm md:text-base p-2 xl:-mr-16 md:p-6 rounded-md">
-                Created for a team of graphic designers, this landing page
-                features a creative and{" "}
-                <span className="text-textGreen">eye-catching design </span>that
-                showcases their portfolio and skills in a visually impactful
-                way. Additionally, it includes contact forms and calls to action
-                to generate{" "}
+                A Landing Page Developed with a design team in mind, this page
+                showcases a{" "}
                 <span className="text-textGreen">
-                  interaction with potential clients.
+                  sleek and creative design{" "}
                 </span>
+                that highlights the portfolio and skills of a team of{" "}
+                <span className="text-textGreen">graphic designers.</span>
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>WordPress</li>

@@ -11,13 +11,14 @@ import {
   SlSocialTwitter,
 } from "react-icons/sl";
 import { FaWhatsapp } from "react-icons/fa";
+import { TbBrandTelegram } from "react-icons/tb";
 
 export const Navbar = () => {
   const ref = useRef<HTMLDivElement | null>(null);
   const [showMenu, setShowMenu] = useState(false);
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
-    setShowMenu(false)
+    setShowMenu(false);
     const href = e.currentTarget.href;
     const targetId = href.replace(/.*\#/, "");
     const elem = document.getElementById(targetId);
@@ -216,7 +217,7 @@ export const Navbar = () => {
                     initial={{ y: -10, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.1 }}
-                    href="https://www.linkedin.com/in/julio-agustin-barrios/"
+                    href="https://api.whatsapp.com/send?phone=5491166684762&text=Hi!"
                     target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
@@ -226,6 +227,17 @@ export const Navbar = () => {
                   <motion.a
                     initial={{ y: -10, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.1 }}
+                    href="https://t.me/keravnos"
+                    target="_blank"
+                  >
+                    <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+                      <TbBrandTelegram />
+                    </span>
+                  </motion.a>
+                  {/* <motion.a
+                    initial={{ y: -10, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.1, delay: 0.2 }}
                     href="https://www.linkedin.com/in/julio-agustin-barrios/"
                     target="_blank"
@@ -233,12 +245,12 @@ export const Navbar = () => {
                     <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                       <SlSocialTwitter />
                     </span>
-                  </motion.a>
+                  </motion.a> */}
                   <motion.a
                     initial={{ y: -10, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.1, delay: 0.3 }}
-                    href="https://www.linkedin.com/in/julio-agustin-barrios/"
+                    href="https://www.facebook.com/keravnos.devs/"
                     target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
@@ -249,14 +261,14 @@ export const Navbar = () => {
                     initial={{ y: -10, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.1, delay: 0.4 }}
-                    href="https://www.linkedin.com/in/julio-agustin-barrios/"
+                    href="https://www.instagram.com/keravnosdevs"
                     target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                       <SlSocialInstagram />
                     </span>
                   </motion.a>
-                  <motion.a
+                  {/* <motion.a
                     initial={{ y: -10, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.1, delay: 0.4 }}
@@ -266,7 +278,7 @@ export const Navbar = () => {
                     <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                       <SlSocialLinkedin />
                     </span>
-                  </motion.a>
+                  </motion.a> */}
                 </div>
               </div>
               <motion.a

@@ -2,5 +2,6 @@ import logo from "./images/logo.png"
 import aboutimg from "./images/aboutimg.jpg"
 import project0 from "./images/project-0.png"
 import project1 from "./images/project-1.png"
+import project2 from "./images/project-2.png"
 
-export { logo, aboutimg, project0, project1 };
+export { logo, aboutimg, project0, project1, project2 };
